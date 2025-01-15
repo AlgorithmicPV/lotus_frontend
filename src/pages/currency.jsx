@@ -247,7 +247,7 @@ function Currencypage() {
     };
 
     flip_convert();
-  }, [flip_value, flip_country]);
+  }, [flip_value, country]);
 
   let flip = () => {
     if (mode == "lk_to_other") {
