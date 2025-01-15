@@ -50,12 +50,13 @@ function ChatPage() {
     Seterror_classname("error-hide");
   };
 
-  useEffect(() => {
-    localStorage.setItem("client_messages", JSON.stringify(messages));
-  }, [messages]);
+  // useEffect(() => {
+  //   localStorage.setItem("client_messages", JSON.stringify(messages));
+  // }, [messages]);
 
   useEffect(() => {
     localStorage.setItem("server_messages", JSON.stringify(server_msgs));
+    localStorage.setItem("client_messages", JSON.stringify(messages));
   }, [server_msgs]);
 
   let user_send = () => {
