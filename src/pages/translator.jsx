@@ -160,7 +160,7 @@ function TranslatorPage() {
       lk_lang: lk_lang,
     };
     axios
-      .post("https://lotus-backend.vercel.app/lotus_translator", data)
+      .post("https://lotus-backend-jaek.onrender.com/lotus_translator", data)
       .then((response) => {
         console.log(response.data.translated_txt_from_server);
         setTranslated(response.data.translated_txt_from_server);
