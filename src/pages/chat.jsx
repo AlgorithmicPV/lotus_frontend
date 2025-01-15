@@ -67,7 +67,7 @@ function ChatPage() {
           user_msg: value,
         };
         axios
-          .post("https://lotus-backend.vercel.app/lotus_chat", {
+          .post("https://lotus-backend-jaek.onrender.com/lotus_chat", {
             user_msg: value,
           })
           .then((response) => {
