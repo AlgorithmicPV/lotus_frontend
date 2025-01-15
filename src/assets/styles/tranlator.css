@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "micross";
+  src: url("../../fonts/micross.woff");
+}
+
+@font-face {
+  font-family: "CircularSpotifyTxT";
+  src: url("../../fonts/CircularSpotifyTxT-Med.ttf");
+}
+
+.translator_body {
+  width: 100%;
+  overflow: auto;
+}
+
+.translator-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.left-box,
+.right-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 10px;
+}
+
+#languages {
+  width: fit-content;
+  align-self: flex-start;
+}
+
+textarea {
+  resize: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-size: large;
+  background-color: black;
+  padding: 10px;
+  font-family: "micross";
+  font-size: large;
+}
+
+.output-translator {
+  color: white;
+  height: -webkit-fill-available;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-size: large;
+  background-color: black;
+  padding: 8px;
+  overflow: auto;
+  font-family: "micross";
+  font-size: large;
+}
+
+#languages {
+  margin-top: 15px;
+  background-color: #0a0a0a;
+  border: none;
+  color: #00a1ff;
+  font-family: "micross";
+  font-size: large;
+  outline: none;
+}
+
+#languages:active {
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .translator-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .left-box,
+  .right-box {
+    padding-right: 0;
+  }
+
+  .translator-box {
+    width: calc(100% - 10px);
+  }
+}

@@ -1,0 +1,345 @@
+@font-face {
+  font-family: "KronaOne";
+  src: url("../../fonts/KronaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "micross";
+  src: url("../../fonts/micross.woff");
+}
+
+@font-face {
+  font-family: "CircularSpotifyTxT";
+  src: url("../../fonts/CircularSpotifyTxT-Med.ttf");
+}
+
+.h-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: max-content;
+  align-self: flex-start;
+  font-size: x-large;
+  margin-top: 15px;
+  font-family: "KronaOne", sans-serif;
+}
+
+.logo-img {
+  height: 30px !important;
+  width: auto;
+}
+
+.h-logo p {
+  font-family: "KronaOne", sans-serif;
+  font-size: larger;
+}
+
+.l,
+.tus {
+  color: white;
+}
+
+.v {
+  color: #00a1ff;
+}
+
+.left-side {
+  color: white;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 0;
+  display: none;
+}
+
+.left-side .down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: 50px;
+}
+
+.txt {
+  font-size: xx-large;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 15px;
+  font-family: "micross";
+}
+
+.try-btn {
+  background-color: #00a1ff;
+  border: none;
+  color: black;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-size: x-large;
+  font-family: "micross";
+  width: max-content;
+  margin-bottom: 15px;
+}
+
+.home-cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150%;
+  width: 100%;
+}
+
+.smartphone {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.frame {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.img-cont {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  align-self: center;
+  animation: fadeIn 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.small-cont {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.484);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-cont-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: max-content;
+  align-self: flex-start;
+  font-size: x-large;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.small-cont-logo img {
+  height: 30px;
+  width: auto;
+}
+
+.small-cont-logo p {
+  font-family: "KronaOne";
+}
+
+.small-cont-v {
+  color: #00a1ff;
+}
+
+.small-cont-down {
+  background-color: rgba(0, 0, 0, 0.632);
+  width: calc(100% - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.small-cont-down p {
+  font-family: "micross";
+  font-size: xx-large;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.small-cont-down button {
+  background-color: #00a1ff;
+  border: none;
+  color: black;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-size: large;
+  font-family: "micross";
+  width: max-content;
+  margin-bottom: 15px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .small-cont {
+    display: none;
+  }
+  .h-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: max-content;
+    align-self: flex-start;
+    font-size: x-large;
+    margin-top: 15px;
+  }
+
+  .h-logo .logo-img {
+    height: 30px !important;
+    width: auto;
+  }
+  .home-cont {
+    display: flex;
+    flex-direction: row;
+  }
+  .txt {
+    font-size: 50px;
+    width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    color: rgb(237, 237, 237) !important;
+  }
+  .left-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin-left: 5%;
+  }
+  .right-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+  }
+  .left-side .down {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    margin: 0;
+  }
+  .try-btn {
+    background-color: #00a1ff;
+    border: none;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: "micross";
+    width: max-content;
+    transition: background-color 0.5s ease;
+    transition: border-radius 1s ease-out;
+    margin-bottom: 0;
+  }
+  .try-btn:hover {
+    background-color: #0078be;
+    border: none;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: "micross";
+    width: max-content;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  .smartphone {
+    height: calc(50vw * 1.75);
+    width: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .frame {
+    position: absolute;
+    width: 45%;
+    height: 55%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+
+  .img-cont {
+    position: absolute;
+    height: 55%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 13.5%;
+    align-self: center;
+  }
+}

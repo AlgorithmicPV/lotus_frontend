@@ -1,0 +1,30 @@
+@font-face{
+    font-family: 'KronaOne';
+    src: url("../../fonts/KronaOne-Regular.ttf");
+}
+
+.logo{
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.logo img{
+    height: 25px;
+    width: auto;
+}
+
+.logo p{
+    font-family: 'KronaOne', sans-serif;
+    font-size: larger;
+}
+
+.l, .tus{
+    color: white;
+}
+
+.v{
+    color: #00A1FF;
+}
