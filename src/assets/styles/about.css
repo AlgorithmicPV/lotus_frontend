@@ -72,4 +72,10 @@
   .about-container ul li {
     padding: 10px;
   }
+
+  .about-container .creator {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 90px;
+}
 }
