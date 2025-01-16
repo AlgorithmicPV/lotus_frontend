@@ -113,6 +113,14 @@ function ChatPage() {
     }
   }, [server_error_msg]);
 
+  var start_the_backend = "start";
+
+  useEffect(() => {
+    axios.post("https://lotus-backend-jaek.onrender.com/", {
+      start: start_the_backend,
+    });
+  }, [start_the_backend]);
+
   return (
     <>
       {console.log(server_msgs.length)}
