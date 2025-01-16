@@ -184,6 +184,15 @@ function TranslatorPage() {
       output.style.height = `${maxHeight}px`;
     }
   });
+
+  var start_the_backend = "start";
+
+  useEffect(() => {
+    axios.post("https://lotus-backend-jaek.onrender.com/", {
+      start: start_the_backend,
+    });
+  }, [start_the_backend]);
+
   return (
     <>
       <div className="space-chat"></div>
