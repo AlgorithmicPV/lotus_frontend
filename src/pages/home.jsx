@@ -12,6 +12,7 @@ import lotus_tower from "../assets/images/lotus-tower.jpg";
 import nine_arch from "../assets/images/nine-arch.jpg";
 import anuradhapura from "../assets/images/Anuradhapura.jpg";
 import vatadagaya from "../assets/images/vatadagaya.jpg";
+import axios from "axios";
 
 function HomePage() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,14 @@ function HomePage() {
     anuradhapura,
     beaches,
   ];
+
+  var start_the_backend = "start";
+
+  useEffect(() => {
+    axios.post("https://lotus-backend-jaek.onrender.com/", {
+      start: start_the_backend,
+    });
+  });
 
   useEffect(() => {
     const interval = setInterval(() => {
