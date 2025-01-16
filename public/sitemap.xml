@@ -1,16 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://lotus-frontend-gamma.vercel.app/</loc>
-  <lastmod>2025-01-16T06:35:27+00:00</lastmod>
+	<loc>https://lotus-frontend-gamma.vercel.app/</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
-
-
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/home</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/about</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/lotus-chat</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/currency-converter</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/translator</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/allowElement</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/allowedElements</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/disallowedElements</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/remarkPlugins</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/components</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/children</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://lotus-frontend-gamma.vercel.app/urlTransform</loc>
+	<lastmod>2025-01-16T09:40:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 </urlset>
