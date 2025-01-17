@@ -37,8 +37,10 @@ function HomePage() {
       })
       .then((response)=>{
         console.log(response.data["started_msg"])
-           );
-  });
+      })
+      .catch((error) => {
+        console.error(error); 
+      });
 
 
   useEffect(() => {
