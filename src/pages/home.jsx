@@ -31,9 +31,13 @@ function HomePage() {
   var start_the_backend = "start";
 
   useEffect(() => {
-    axios.post("https://lotus-backend-jaek.onrender.com/", {
-      start: start_the_backend,
-    });
+    axios
+      .post("https://lotus-backend-jaek.onrender.com/", {
+        start: start_the_backend,
+      })
+      .then((response)=>{
+        console.log(response.data["started_msg"])
+           );
   });
 
 
