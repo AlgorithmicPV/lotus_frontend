@@ -35,13 +35,13 @@ function HomePage() {
       .post("https://lotus-backend-jaek.onrender.com/", {
         start: start_the_backend,
       })
-      .then((response)=>{
-        console.log(response.data["started_msg"])
+      .then((response) => {
+        console.log(response.data["started_msg"]);
       })
       .catch((error) => {
-        console.error(error); 
+        console.error(error);
       });
-
+  });
 
   useEffect(() => {
     const interval = setInterval(() => {
