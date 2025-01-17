@@ -34,7 +34,7 @@ function HomePage() {
     axios.post("https://lotus-backend-jaek.onrender.com/", {
       start: start_the_backend,
     });
-  }, []);
+  });
 
 
   useEffect(() => {
